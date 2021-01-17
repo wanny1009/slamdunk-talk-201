@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to SLAM DUNK Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <img src="img/slamdunk_logo.png" class="welcome-header__logo" />
+      <h1 class="welcome-header__title">Welcome to SLAM DUNK Talk</h1>
+      <p class="welcome-header__text">
+        If you have a Kokoa Account, log in with your email or phone number
+      </p>
+    </header>
+
+    <div id="login">
+      <form action="friends.html" method="get" id="login-form">
+        <input name="username" required type="text" placeholder="Your email or phone number" />
+        <input name="password" required type="password" placeholder="Password" />
+        <input type="submit" value="Log in" />
+        <a href="#">Find Kokoa Account or Password</a>
+      </form>
+    </div>
+
+<!-- 화면 전환 -->
+    <div id="splash-screen">
+      <img src="img/slamdunk_logo.png" class="welcome-header__logo" />
+      <div class="splash-screen-loading">
+        <div class="splash-screen-loading__animation"></div>
+        <div class="splash-screen-loading__animation"></div>
+        <div class="splash-screen-loading__animation"></div>
+        <div class="splash-screen-loading__animation"></div>
+        <div class="splash-screen-loading__animation"></div>
+      </div>  
+    </div>
+
+    <div id="no-mobile">
+      <div class="no-mobile__block">
+        <img class="no-mobile-main__theme" src="img/slamdunk_main_theme.jpg" />
+        <div class="no-mobile-talk"><span class="no-mobile-talk__title">Talk</span>
+        </div>
+        <span class="no-mobile__title">Your screen is too big ㅠㅠ</</span>
+      </div>
+    </div>
+
+    <!-- Font Awesome Script -->
+    <script
+      src="https://kit.fontawesome.com/e3f3bd92b8.js"
+      crossorigin="anonymous">
+    </script>
+  </body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - SLAM DUNK Talk</title>
+  </head>
+  <body id="friends">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+
+    <a id="friends-display-link">
+      <i class="fas fa-info-circle"></i> What's new in this Update 
+      <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://img.theqoo.net/img/miDDe.jpg"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Sakuragi Hanamichi</h4>
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Friends</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <!-- Takgi -->
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="http://pds17.egloos.com/pds/200909/17/45/f0049445_4ab1821c4b929.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Takenori Akagi
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>Center</span>
+            </div>
+          </div>
+        </div>
+        <!-- Kaede Rukawa -->
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="http://img.theqoo.net/img/DcduH.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Kaede Rukawa
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>Small Forward</span>
+            </div>
+          </div>
+        </div>        
+        <!-- Akagi Haruko -->
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://i.pinimg.com/236x/0b/e4/eb/0be4eb17b1c3d3a7abc75af4c037a775.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Akagi Haruko
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>My Love</span>
+            </div>
+          </div>
+        </div>    
+        <!-- Misashi Mitsui -->
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://2.bp.blogspot.com/-GKDk1YW6qss/Wf29_S9LW9I/AAAAAAAAAC0/LcFXkdSMQCE43yX4xSoQQlIFHsiSEPfngCLcBGAs/s320/2119858-mitsui.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Misashi Mitsui
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>Small Forward</span>
+            </div>
+          </div>
+        </div>        
+      </div>
+    </main>
+  
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="fas fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">7</span>
+            <i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- 화면 전환 -->
+    <div id="splash-screen">
+      <img src="img/slamdunk_logo.png" class="welcome-header__logo" />
+      <div class="splash-screen-loading">
+        <div class="splash-screen-loading__animation"></div>
+        <div class="splash-screen-loading__animation"></div>
+        <div class="splash-screen-loading__animation"></div>
+        <div class="splash-screen-loading__animation"></div>
+        <div class="splash-screen-loading__animation"></div>
+      </div>  
+    </div>
+        
+    <div id="no-mobile">
+      <div class="no-mobile__block">
+        <img class="no-mobile-main__theme" src="img/slamdunk_main_theme.jpg" />
+        <div class="no-mobile-talk"><span class="no-mobile-talk__title">Talk</span>
+        </div>
+        <span class="no-mobile__title">Your screen is too big ㅠㅠ</</span>
+      </div>
+    </div>
+    <!-- Font Awesome Script -->
+    <script
+      src="https://kit.fontawesome.com/e3f3bd92b8.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+#friends {
+  height: 100vh;
+}
+
+#friends-display-link {
+  text-align: center;
+  display: block;
+  background-color: #fafafa;
+  padding: 15px 0px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: -15px;
+}
+
+#friends-display-link i {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.friends-screen__channel {
+  margin-top: 25px;
+  border-top: var(--main-border);
+  padding-top: 15px;
+  color: white;
+}
+
+.friends-screen__channel-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background-color: var(--darkmaroon);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 132px;
+  animation: hideSplashScreen 0.4s ease-in-out forwards;
+  animation-delay: 3s;
+}
+
+.splash-screen-loading {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+  width: 60px;
+  height: 100px;
+}
+
+.splash-screen-loading__animation { 
+  width: 7px;
+  height: 30px;
+  background-color: white; 
+  animation: animationLoading 1s ease-in-out infinite;
+}
+
+.splash-screen-loading__animation:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.splash-screen-loading__animation:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.splash-screen-loading__animation:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.splash-screen-loading__animation:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.splash-screen-loading__animation:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+@keyframes animationLoading {
+  0% {
+    transform: none;
+  }
+  25% {
+    height: 100px;
+  }
+  50% {
+    height: 30px;
+  } 
+  100% {
+    transform: none;
+  }
+}
