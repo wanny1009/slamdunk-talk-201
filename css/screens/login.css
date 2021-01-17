@@ -26,10 +26,11 @@
 }
 
 #login {
-  margin: 20px 0px 0px 20px;
+  margin: 20px 10px 10px 20px;
   width: 85%;
   background-color: white;
-  padding: 20px;
+  border-radius: 5px;
+  padding: 25px;
 }
 
 #login-form {
