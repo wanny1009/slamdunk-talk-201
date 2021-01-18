@@ -33,7 +33,31 @@
   height: 30px;
   top: 90px;
   left: 15px;
-  background-color:var(--yellow);
+  background-color:var(--darkyellow);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-mobile-talk2 {
+  width: 70px;
+  height: 30px;
+  top: 260px;
+  left: 10px;
+  background-color:var(--darkyellow);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-mobile-talk3 {
+  width: 70px;
+  height: 30px;
+  top: 505px;
+  left: 10px;
+  background-color:var(--darkyellow);
   position: absolute;
   display: flex;
   justify-content: center;

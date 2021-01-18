@@ -59,6 +59,10 @@
   animation-delay: 3s;
 }
 
+.splash-screen_title {
+  position: relative;
+}
+
 .splash-screen-loading {
   display: flex;
   justify-content: space-around;
